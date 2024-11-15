@@ -14,6 +14,10 @@ Color backgroundColor4 = const Color(0xFF252863);
 Color primaryTextColor = const Color(0xFFE1E1E1);
 Color secondaryTextColor = const Color(0xFF999999);
 Color subtitleColor = const Color(0xFF504F5E);
+Color transparentColor = Colors.transparent;
+Color blackColor = const Color(0xFF000000);
+Color whiteColor = const Color(0xFFFFFFFF);
+Color borderColor = const Color(0xFF2E2E2E);
 
 TextStyle primaryTextStyle = GoogleFonts.poppins(
   color: primaryTextColor,
