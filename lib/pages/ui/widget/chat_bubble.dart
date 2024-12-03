@@ -130,7 +130,7 @@ class ChatBubble extends StatelessWidget {
       ),
       child: Column(
         crossAxisAlignment:
-            isSender ? CrossAxisAlignment.start : CrossAxisAlignment.end,
+            isSender ? CrossAxisAlignment.end : CrossAxisAlignment.start,
         children: [
           hasProduct ? productPreview() : const SizedBox(),
           Container(
@@ -141,10 +141,10 @@ class ChatBubble extends StatelessWidget {
               color: backgroundColor5,
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(
-                  isSender ? 0 : 20,
+                  isSender ? 20 : 0,
                 ),
                 topRight: Radius.circular(
-                  isSender ? 20 : 0,
+                  isSender ? 0 : 20,
                 ),
                 bottomRight: const Radius.circular(
                   20,
