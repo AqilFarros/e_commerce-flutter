@@ -16,24 +16,24 @@ class ChatPage extends StatelessWidget {
   Widget message() {
     return Column(
       children: [
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
-        ChatBubble(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
+        ChatCard(),
       ],
     );
   }
@@ -59,7 +59,7 @@ class ChatPage extends StatelessWidget {
       body: ListView(
         children: [
           header(),
-          messageEmpty(),
+          message(),
         ],
       ),
     );

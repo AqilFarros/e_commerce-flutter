@@ -11,6 +11,7 @@ Color backgroundColor1 = const Color(0xFF1F1D2B);
 Color backgroundColor2 = const Color(0xFF2B2937);
 Color backgroundColor3 = const Color(0xFF242231);
 Color backgroundColor4 = const Color(0xFF252863);
+Color backgroundColor5 = const Color(0xFF2B2844);
 Color primaryTextColor = const Color(0xFFE1E1E1);
 Color secondaryTextColor = const Color(0xFF999999);
 Color subtitleColor = const Color(0xFF504F5E);
