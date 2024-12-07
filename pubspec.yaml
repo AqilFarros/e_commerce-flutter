@@ -41,6 +41,7 @@ dependencies:
   flutter_material_design_icons: ^1.1.7447
   get: ^4.6.6
   intl: ^0.19.0
+  carousel_slider: ^5.0.0
 
 dev_dependencies:
   flutter_test:

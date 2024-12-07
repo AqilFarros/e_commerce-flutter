@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:e_commerce/pages/ui/widget/widget.dart';
 import 'package:e_commerce/shared/shared.dart';
 import 'package:flutter/material.dart';
